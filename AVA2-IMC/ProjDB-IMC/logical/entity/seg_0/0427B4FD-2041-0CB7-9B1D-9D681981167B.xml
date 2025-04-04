@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0427B4FD-2041-0CB7-9B1D-9D681981167B" name="PeriodoTempo">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:49:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pto</preferredAbbreviation>
+<shortName>PeriodoTempo</shortName>
+<synonym>PeriodoTempo</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedicao" id="D5418289-B505-5B43-94B9-95E83D9404F9">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:49:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImc" id="4EBDA198-D6CC-2DBA-250B-240EE43FAFFB">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-04 00:19:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

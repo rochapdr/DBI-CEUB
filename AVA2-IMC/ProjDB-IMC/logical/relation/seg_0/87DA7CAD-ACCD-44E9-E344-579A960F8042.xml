@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="imcPeriodoTempo" directorySegmentName="seg_0" id="87DA7CAD-ACCD-44E9-E344-579A960F8042">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:50:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B95019DF-A482-A350-423A-01064B553FDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0427B4FD-2041-0CB7-9B1D-9D681981167B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

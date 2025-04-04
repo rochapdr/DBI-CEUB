@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B95019DF-A482-A350-423A-01064B553FDE" name="Imc">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:13:16 UTC</createdTime>
+<comment><![CDATA[peso/(altura x altura).
+▪ IMC <18,5kg/m2: baixo peso. É recomendado procurar um médico para avaliação criteriosa do resultado. Pode indicar um estado de consumo do
+organismo, com poucas reservas e riscos associados.
+▪ IMC >18,5 até 24,9kg/m2: peso adequado. Tudo indica que está tudo bem, mas é importante avaliar outros parâmetros da composição corporal,
+para compreender se estão dentro do recomendado. Algumas pessoas apresentam IMC dentro da normalidade, mas têm circunferência abdominal
+maior que a recomendada e/ou quantidade de massa gorda acima do ideal.
+▪ IMC ≥25 até 29,9kg/m2: sobrepeso. O sobrepeso está associado ao risco de doenças como diabetes e hipertensão. Então, atenção! Consulte um
+médico e reveja hábitos para reverter o quadro. Também é importante avaliar outros parâmetros, como a circunferência abdominal.
+▪ IMC de 30,0- 34,9kg/m2: obesidade grau I. É importante buscar orientação médica e nutricional para entender melhor o seu caso, mesmo que os
+exames (colesterol e glicemia, por exemplo) estejam normais.
+▪ IMC de 35,0- 39,9kg/m2: obesidade grau II. Indica um quadro de obesidade mais evoluído em relação à classificação anterior e, mesmo com
+exames laboratoriais dentro da normalidade, não se deve atrasar a busca por orientação médica e nutricional.
+▪ IMC ≥ 40,0kg/m2: obesidade grau III. Nesse ponto, a chance de já estarmos diante de outras doenças associadas é mais elevada. É fundamental
+buscar orientação médica.]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<shortName>Imc</shortName>
+<synonym>Imc</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="abaixoPeso" id="6D80F496-664E-B55C-292C-BBA9D33F3FFB">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:13:32 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoIdeal" id="A51C44EF-AAA3-46C0-8F41-D77CE9A12D92">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:14:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrepeso" id="2866FFBE-7ADF-EF5E-783F-6147190AB44A">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:14:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidade" id="62030D07-F553-7EB9-B48C-7455F22CF7C9">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:14:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeGrave" id="1F4F4202-4EB8-B4D7-B356-C2909B2F7C0A">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:15:29 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

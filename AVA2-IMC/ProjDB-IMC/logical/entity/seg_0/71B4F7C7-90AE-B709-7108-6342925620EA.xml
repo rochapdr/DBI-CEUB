@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71B4F7C7-90AE-B709-7108-6342925620EA" name="ProblemaSaude">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:19:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pbs</preferredAbbreviation>
+<shortName>ProblemaSaude</shortName>
+<synonym>ProblemaSaude</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fumante" id="CE0DADBA-74C2-8C6E-F8D1-C0CF2284C689">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:19:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="neurologica" id="43DBB9BB-0B97-5BBB-B870-27FD20E82D5F">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:20:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="articular" id="209DFB02-1A11-17B7-6986-69AE17AEDF90">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:20:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cronico" id="0444BD5E-21E1-1EA6-3363-F5FD8E2A7E15">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:22:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gravidez" id="91A69EAF-451B-EBFB-3660-E1264C08354C">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:24:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="posOperatorio" id="1BDD8012-61BE-5959-6D83-4A6369954157">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:25:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocular" id="9012E46B-F9E9-E786-0F05-FF83BD2137B5">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:32:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

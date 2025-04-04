@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8602F6F9-1D20-0DA6-4906-06B536DD7ABA" name="Cliente">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 22:56:17 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="22CD9F39-588A-8EF5-DB76-9C8586FFB9FE">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:05:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="05C3D7E5-ED49-7102-DB5D-A0779B848826">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:05:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="89EA06C9-8837-F0D1-4CE5-183069ACC2CA">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:05:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="E6F82C1A-386F-CE07-78C7-1DB2358AF6F3">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:05:36 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="FF9F69A4-EE32-44A4-A085-A58871BAB538">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:06:10 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="3C49820F-D695-BB99-0A65-D3CD93D35637">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:06:59 UTC</createdTime>
+<comment><![CDATA[menor de 18 anos, vir acompanhado dos responsáveis.]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="3F3EE00E-73C2-B5BC-78C2-66BCF8ABBFC0">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:09:46 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pcd" id="5A3FCB65-08B7-30C8-1331-C96195274C20">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-03 23:16:27 UTC</createdTime>
+<comment><![CDATA[informação para saber se o paciente é deficiente ou não.]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="81568598-3D51-9559-0396-3852D5265B7D">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-04 00:20:32 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEB8603F-D11A-C309-528A-3B55D679DDA4" name="Cliente PK">
+<createdBy>rochaapdr</createdBy>
+<createdTime>2025-04-04 00:23:36 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0D6D85AE-7314-1FB4-8AE1-275739593A1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22CD9F39-588A-8EF5-DB76-9C8586FFB9FE</attributeRef>
+<attributeRef>81568598-3D51-9559-0396-3852D5265B7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
